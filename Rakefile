@@ -63,7 +63,7 @@ namespace :openbeerdb do
   end
 
   def export_path
-    File.join(File.expand_path('../../..', __FILE__), %W[db export])
+    File.join(File.expand_path('..', __FILE__), 'dumps')
   end
 
 end
